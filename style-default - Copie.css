@@ -1,0 +1,94 @@
+
+html, body { 
+	margin: 0; 
+	background: #e2f2f2; 
+	font-family: Calibri; 
+}
+div { 
+	display: block; 
+}
+
+a {text-decoration:none;}
+
+.robozzle { font-size:12px; text-align:right;}
+.robozzle a:hover{ text-decoration: underline;}
+.robozzle a:visited{ color:#ed0303;}
+
+.menu { margin-left:10px; margin-right:10px; position: relative; margin-top:-550px; border-radius:5px; background: #ffe333; min-height:40px; text-align: center; }
+.menu ul.menu_nav {  list-style: none; margin: 0; padding: 0; }
+.menu ul.menu_nav li { display: inline-block; height:40px; line-height: 40px; margin: 0; padding: 0 20px; text-align: center; text-transform: uppercase; }
+.menu ul.menu_nav li:hover, .menu ul.menu_nav li.active {  background: #fff; text-decoration: none; }
+.menu ul.menu_nav li a { color: #000111; margin: 0; padding: 0; text-decoration: none; }
+.menu ul.menu_nav li a:hover { color: #ed0303; background: transparent; }
+
+.perform { max-width: 960px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; color: #000; margin-top:300px;text-decoration:none;}
+.perform h1 { text-align: center; font-size: 2em; margin-bottom:170px;text-decoration:none;}
+.perform span { color: #ed0303; text-decoration:none; }
+.perform  h1.performh1 a:{ color:#000000;}
+.perform  h1.performh1 a:hover{ color:#ed0303; text-decoration:none; }
+.perform  a:visited{color:#000000;}
+
+ hr.hr1 { border-top: 4px solid #ffe333; border-left:0; }
+ 
+.header { max-width: 960px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; text-align: center; color: #000; }
+.header span { color: #ed0303; }
+.header p { font-size: 20px; }
+.header h1 { margin-top: 0px; }
+
+section { border-bottom: 1px solid #ffe333; color: #000; height: 300px; max-width: 960px; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+section img { float: left; width: 70px; height: 60px; max-width: 300px; max-height: 300px; margin-right: 10px; }
+section h2 { text-align: center; color: #ed0303; }
+
+#flying_lion { height: 200px; }
+#contortionist { height: 285px; }
+#juggler { height: 200px; }
+#lion_tamer { height: 285px; }
+#flying_lion a, #contortionist a, #juggler a, #lion_tamer a { border-radius:5px;line-height: 30px; margin: 0; padding: 0 20px; background: #ed0303; text-align: center; color: #fff; float: right; text-decoration: none; }
+
+/* POPUP */
+#popupContact { width:50%; margin-top:20px; display: none; background-color:#fff; border-radius:15px; color:#000; padding:20px; min-width:400px; min-height: 180px; }
+#popupTicket { display: none; background-color:#fff; border-radius:15px; color:#000; padding:20px; min-width:400px; min-height: 180px; }
+
+.loveit p { color: #000; text-align: center; padding-top: 10px; padding-bottom: 10px;font-weight: bold; font-size: 30px;}
+.footer    { border-radius:5px; background: #ffe333; padding-right: 15px; padding-left: 15px; max-width:960px; height: 50px; margin-right: auto; margin-left: auto; margin-top: 20px;}
+.footer p { color: #000; text-align: center; padding-top: 10px; padding-bottom: 10px;}
+.footer a { border-radius:5px; line-height: 30px; margin:0; padding: 0 20px; background: #ed0303; color: #fff; float: right; text-decoration: none; }
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+	height:40px;
+    padding: 8px; /* Some padding */ 
+    border: 1px solid #ed0303; 
+    border-radius: 2px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 4px; /* Add a top margin */
+    margin-bottom: 8px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #eafcce;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: white;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #ffe333;
+    padding: 20px;
+} 
+
+
+
+
